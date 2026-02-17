@@ -1,4 +1,5 @@
 public class TaskManager {
+
     public static void createTask(String title) {
         System.out.println("Task '" + title + "' created");
     }
@@ -7,8 +8,12 @@ public class TaskManager {
         System.out.println("Listing tasks...");
     }
 
-        public static void deleteTask(String title) {
+    public static void completeTask(String title) {
+        System.out.println("Task '" + title + "' completed");
+    }
+
+    public static void deleteTask(String title) {
             System.out.println("Task '" + title + "' deleted");
         }
-
+//gfjnshldfkgnldf
 }
